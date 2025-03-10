@@ -1,0 +1,53 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    padding: 5px;
+    margin: 5px;
+  }
+
+#webname {
+    background-color: #92ad70;
+}
+
+a {
+  text-decoration: none; 
+  color: #3f7c35; 
+  margin-right: 15px; 
+}
+
+
+th{
+  padding: 12px 0; 
+  background-color: #f0f0f0; 
+  color: #333; 
+  width: fit-content; 
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+form *{
+  display: block;
+  margin: auto;
+  text-align: center; 
+}
+
+h1 {
+  color:#fff; 
+  background:#a7f49a
+  /* style="color:#469b38; background:#a7f49a"*/
+}
+
+button {
+  background-color: #92ad70;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}

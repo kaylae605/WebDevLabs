@@ -23,7 +23,9 @@ let L2 = ["Apple", "Banana", "Kiwi", "Orange"];
 
 findTheBanana(L1,L2); 
 
-greetingFunc("Kayla"); 
+if (window.location.href.endsWith("index.html")) {
+    greetingFunc("Kayla");
+}
 
 
 function SumNPrint(x1, x2){

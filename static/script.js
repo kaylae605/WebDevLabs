@@ -70,7 +70,10 @@ function greetingFunc(name){
     } else if (h > 18 && h < 20){
         const E = document.getElementById("greeting");
         E.innerHTML = "Good evening, I am " + name;
-    } else if (h > 20 && h < 24 && h > 0 && h < 5){
+    } else if (h > 20 && h < 24) {
+        const E = document.getElementById("greeting");
+        E.innerHTML = "Good night, I am " + name;
+    } else if (h > 0 && h < 5) {
         const E = document.getElementById("greeting");
         E.innerHTML = "Good night, I am " + name;
     }

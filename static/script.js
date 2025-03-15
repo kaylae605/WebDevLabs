@@ -63,19 +63,22 @@ function isBanana(str){
 function greetingFunc(name){
     const d = new Date();
     const h = d.getHours(); 
-    if (h < 12){
-        const E = document.getElementById("greeting");
-        E.innerHTML = "Good morning, I am " + name;
-    } else if (h < 18){
-        const E = document.getElementById("greeting");
-        E.innerHTML = "Good afternoon, I am " + name;
-    } else if (h < 20){
-        const E = document.getElementById("greeting");
-        E.innerHTML = "Good evening, I am " + name;
-    } else {
-        const E = document.getElementById("greeting");
-        E.innerHTML = "Good night, I am " + name;
-    } 
+    const E = document.getElementById("greeting");
+    if (E){
+        if (h < 12){
+            const E = document.getElementById("greeting");
+            E.innerHTML = "Good morning, I am " + name;
+        } else if (h < 18){
+            const E = document.getElementById("greeting");
+            E.innerHTML = "Good afternoon, I am " + name;
+        } else if (h < 20){
+            const E = document.getElementById("greeting");
+            E.innerHTML = "Good evening, I am " + name;
+        } else {
+            const E = document.getElementById("greeting");
+            E.innerHTML = "Good night, I am " + name;
+        } 
+    }
 }
 
 function addYear(){

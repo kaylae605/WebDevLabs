@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Kayla Edwards">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Kayla Edwards professional website">
+    <title>Kayla Edwards</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body onload="addYear()">
+    <header onload="greetingFunc()">
+        <h1 id="webname">Kayla Edwards</h1>
+    </header>
+
+    <div class= "main">
+        <nav>
+            <a href="index.html">About</a> 
+            <a href="views/cv.html">Resume</a> 
+            <a href="views/contact.html">Contact</a> 
+            <a href="views/fun.html">Fun Stuff</a> 
+        </nav>
+        <h2 id="greeting">Hi, my name is Kayla</h2>
+        <img src="static/me.jpeg" alt="Me :D" width="300" height="400">
+        <p id="intro">Hi! My name is Kayla Edwards and I am a Sophomore in Information Systems with a minor in Human Computer Interaction! In my free time I like to do digital art and play table tennis. 
+            <span id="readMore">Read More</span>
+        </p>
+        <p id="fullIntro" style="display: none;">
+            Hi! My name is Kayla Edwards and I am a Sophomore in Information Systems with a minor in Human Computer Interaction! In my free time I like to do digital art and play table tennis. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <button id="readLess">Read Less</button>
+        </p>
+        <footer>
+            <p id="copyYear">Designed 🎨 and Coded 👩🏽‍💻 by Kayla Edwards </p>
+
+        </footer>
+    </div>
+</body>
+</html>

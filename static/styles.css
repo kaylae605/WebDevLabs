@@ -56,7 +56,9 @@ button {
 }
 
 .error {
-  font-size: 15px;
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
   display: block;
 }
 /* 

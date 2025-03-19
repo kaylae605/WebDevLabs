@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="../static/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Kayla Edwards">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Kayla Edwards professional website">
+    <title>Kayla Edwards</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Kayla Edwards</h1>
+    </header>
+    <nav>
+        <a href="../index.html">About</a> 
+        <a href="cv.html">Resume</a> 
+        <a href="contact.html">Contact</a> 
+        <a href="fun.html">Fun Stuff</a> 
+    </nav>
+
+    <div class= "mainLayout">
+        <div id = "item 1">
+        <h2>Things I love to do for fun</h2>
+
+        <!-- <button onclick="showList()">Click to see...</button> -->
+
+        <ul id="list">
+            <li>Digital Illustration</li>
+            <li>Table Tennis</li>
+            <li>Adventuring with my friends</li>
+        </ul>
+
+
+        </div>
+        <div id = "item2">
+            <img src="../static/funIMG.jpg" alt="sanrio" width="300" height="400">
+
+
+        </div>
+        <div id = "item3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LOWBBMC__w0?si=Qw4iYcmBOZ-PNWEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+        <div id = "item4">
+            <div class="container">
+                <h2>Need some advice?</h2>
+                <p id="adviceText">Click the button to get a random piece of advice!</p>
+                <button onclick=" getAdvice()">Get Advice</button>
+            </div>
+
+
+        </div>
+        
+          <footer>
+            <p id="copyYear">Designed 🎨 and Coded 👩🏽‍💻 by Kayla Edwards </p>
+
+        </footer>
+    </div>
+</body>
+</html>

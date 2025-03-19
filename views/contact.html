@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="../static/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Kayla Edwards">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Kayla Edwards professional website">
+    <title>Kayla Edwards</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+    
+
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Kayla Edwards</h1>
+    </header>
+    <nav>
+        <a href="../index.html">About</a> 
+        <a href="cv.html">Resume</a> 
+        <a href="contact.html">Contact</a> 
+        <a href="fun.html">Fun Stuff</a> 
+    </nav>
+
+    <div class= "mainLayout">
+        <div id = "item1">
+            <h2>Find Me</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.023249129524!2d-79.99588662354736!3d40.43970227138356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f16f56c52701%3A0x675b5b051c52bfb5!2sPoint%20Park%20University!5e0!3m2!1sen!2sus!4v1701389270543!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id = "item2">
+            <h2>Contact Me</h2>
+        <form id="contact">
+            <label for="fname">Your name (required):</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            
+
+            <label for="email">Your email (required):</label><br>
+            <input type="email" id="email" name="email" required><br>
+       
+
+            <label for="comment">Your comment (required):</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+            <input type = "submit" value = "Send" onclick = "validate()">
+ 
+
+            <!-- <button>SEND</button> -->
+            <p id="errMessage"></p>
+        </form>
+        </div>
+       
+        
+        
+    <div id="contactInfo">
+        <h3>Contact Information</h3>
+        <table>
+            <tr>
+                <th>Email</th>
+                <td><a href="mailto:kaylabedwards05@gmail.com">kaylabedwards05@gmail.com</a></td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td><a href="tel:7049755997">(704)-975-5997</a></td>
+            </tr>
+            <tr>
+                <th>LinkedIn</th>
+                <td><a href="https://www.linkedin.com/in/kayla-edwards-839775299" target="_blank">www.linkedin.com/in/kayla-edwards-839775299</a></td>
+            </tr>
+           
+        </table>
+    </div>
+        
+        
+        <footer>
+            <p id="copyYear">Designed 🎨 and Coded 👩🏽‍💻 by Kayla Edwards </p>
+
+        </footer>
+    </div>
+</body>
+</html>
